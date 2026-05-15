@@ -1,0 +1,6 @@
+setting,n,faithfulness,execution,grounding,decision,render_ok_pct,failure_taxonomy,watchdog
+balanced 1000 stricttransform v1,1000,94.210,95.600,96.800,98.900,79.6,filter 6; sort 3,continue
+English 1000 stricttransform v2,1000,93.870,98.600,96.700,98.500,97.8,filter 4; sort 1,continue
+matched bilingual 1000 stricttransform v1,1000,94.650,98.900,96.900,98.600,97.4,filter 5; aggregation 2,continue
+held-out 4B stricttransform v1,860,94.880,94.884,98.900,98.700,76.3,filter 8; sort 6,continue
+held-out 8B stricttransform v1,860,95.260,95.116,98.700,98.800,76.3,filter 7; sort 2,continue

@@ -1,0 +1,6 @@
+experiment,baseline,final,n,baseline_faithfulness,final_faithfulness,delta_faithfulness,baseline_execution,final_execution,delta_execution,baseline_grounding,final_grounding,delta_grounding,baseline_decision,final_decision,delta_decision,baseline_render_ok_pct,final_render_ok_pct,delta_render_ok_pct
+VI balanced,Llama 3.2 3B chart-type strict,Qwen3-4B strict-transform verifier repair,1000,90.225,94.210,3.985,96.0,95.6,-0.400,89.3,96.8,7.500,100.0,98.9,-1.100,80.0,79.6,-0.400
+EN explicit,Qwen3-4B chart-type strict repair,Qwen3-4B strict-transform verifier repair,1000,83.630,93.870,10.240,86.125,98.6,12.475,90.461,96.7,6.239,93.8,98.5,4.700,74.5,97.8,23.300
+Matched EN/VI,Qwen3-4B chart-family strict repair,Qwen3-4B strict-transform verifier repair,1000,91.587,94.650,3.063,93.675,98.9,5.225,95.719,96.9,1.181,99.9,98.6,-1.300,90.9,97.4,6.500
+Held-out VI 4B,Qwen3-4B chart-family strict repair,Qwen3-4B strict-transform verifier repair,860,90.226,94.880,4.654,94.023,94.884,0.861,96.901,98.9,1.999,100.0,98.7,-1.300,75.116,76.279,1.163
+Held-out VI 8B,Qwen3-8B chart-family strict repair,Qwen3-8B strict-transform verifier repair,860,91.562,95.260,3.698,93.744,95.116,1.372,97.132,98.7,1.568,98.953,98.8,-0.153,74.767,76.279,1.512

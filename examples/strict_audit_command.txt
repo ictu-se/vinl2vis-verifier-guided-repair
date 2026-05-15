@@ -1,0 +1,5 @@
+vinl2vis-verifier strict-audit \
+  --name heldout_4b_stricttransform_v1 \
+  --split /path/to/benchmark/faithbench/splits/heldout_860_v1.jsonl \
+  --outputs /path/to/benchmark/faithbench/outputs/heldout860_qwen3_4b_stricttransform_v1/qwen3_4b__stricttransform_v1__n860.jsonl \
+  --out results/heldout_4b_strict_audit.csv

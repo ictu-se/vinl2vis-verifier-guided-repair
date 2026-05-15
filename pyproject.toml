@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vinl2vis-verifier-guided-repair"
+version = "0.1.0"
+description = "Verifier-guided repair utilities for decision-aware NL2Vis artifacts."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["click>=8.1"]
+authors = [{name = "Anonymous"}]
+license = {text = "MIT"}
+
+[project.scripts]
+vinl2vis-verifier = "vinl2vis_verifier.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

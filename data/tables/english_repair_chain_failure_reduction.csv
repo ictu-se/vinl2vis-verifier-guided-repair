@@ -1,0 +1,8 @@
+step,n,faithfulness,execution,grounding,decision,render_ok_pct,chart_mismatch,render_fail,invalid_json,unneeded_clarify,visual_major,visual_minor,visual_clean,note
+chart_type_strict_repair,1000,83.630,86.125,90.461,93.800,74.5,312,148,20,60,,,,Initial English explicit stress run.
+chart_family_strict_repair,1000,87.673,95.555,91.631,95.500,89.0,168,54,6,51,,,,Prompt accepts broader chart families and repairs common Qwen formatting.
+label_audit_v3,1000,90.420,95.555,92.400,95.500,89.2,38,52,6,47,,,,Automatic label audit for vague English line-as-bar alternatives.
+renderfix_v2,1000,91.210,97.800,92.900,96.100,94.1,21,18,5,41,,,,Posthoc deterministic repair on prior render failures only.
+decisionfix_v1,1000,92.850,98.200,94.100,98.300,96.6,18,14,4,17,,,,Histogram count gate fix for unnecessary clarification.
+residualfix_v1,1000,93.170,98.700,94.600,98.600,97.2,12,9,2,14,126,82,792,Residual invalid JSON and bad encoding field repair.
+visualfix_v1,1000,93.870,98.600,96.700,98.500,97.8,8,7,2,15,34,49,917,Deterministic visual sanity repair.

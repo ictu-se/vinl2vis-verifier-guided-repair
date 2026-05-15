@@ -1,0 +1,6 @@
+experiment,baseline,final,paired_n,improved,unchanged,degraded,mean_delta,median_delta,mean_positive_delta,mean_negative_delta,max_delta,min_delta
+VI balanced,Llama 3.2 3B chart-type strict,Qwen3-4B strict-transform verifier repair,1000,642,310,48,3.985,2.900,6.721,-2.500,13.250,-2.500
+EN explicit,Qwen3-4B chart-type strict repair,Qwen3-4B strict-transform verifier repair,1000,714,211,75,10.240,8.700,15.130,-4.500,49.500,-4.500
+Matched EN/VI,Qwen3-4B chart-family strict repair,Qwen3-4B strict-transform verifier repair,1000,392,545,63,3.063,0.000,8.430,-2.100,36.000,-2.100
+Held-out VI 4B,Qwen3-4B chart-family strict repair,Qwen3-4B strict-transform verifier repair,860,421,385,54,4.654,3.700,9.820,-2.800,30.333,-2.800
+Held-out VI 8B,Qwen3-8B chart-family strict repair,Qwen3-8B strict-transform verifier repair,860,390,420,50,3.698,0.700,8.910,-2.400,32.500,-2.400

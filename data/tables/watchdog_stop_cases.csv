@@ -1,0 +1,6 @@
+model,method,split,n,faithfulness_score,execution_score,grounding_score,decision_score,render_ok_pct,unsafe_plot_pct,data_fabrication_pct,invalid_json_pct,unnecessary_clarification_pct,raw_ask_rate_pct,watchdog,decision
+qwen3:4b,chart_type_strict,smoke_25,25,62.480,56.0,72.8,62.0,44.0,0.0,0.0,20.0,24.0,36.0,stop_redesign_prompt_or_parser,stop_do_not_scale
+qwen3:4b,chart_type_strict_thinking_fallback,balanced_eval_1000_partial,126,81.448,63.929,92.593,88.095,66.667,0.0,0.0,11.9,0.0,0.0,continue,stop_timeout_and_forecast_below_acceptance
+qwen2.5:3b,chart_type_strict,smoke_25,25,74.000,80.0,72.8,72.0,42.0,0.0,0.0,0.0,40.0,72.0,stop_degenerate,stop_do_not_scale
+granite-code:3b,chart_type_strict,pilot_250,250,79.109,85.44,77.2,79.0,58.0,0.0,0.0,0.0,30.0,72.8,caution,below_scaling_threshold
+qwen3:14b,qwen_chart_family_strict_repair,heldout_860_v1,860,68.320,62.0,78.4,65.0,40.0,0.0,0.0,0.0,0.0,23.26,stop_degenerate,heldout_not_evidence_incomplete_spec
